@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="start_light_blue">#00B0ff</color>
+    <color name="center_light_purple">#8C4BC5</color>
+    <color name="end_light_blue">#40c4ff</color>
+    <color name="lesson_list">#b3e5fc</color>
+    <color name="lesson_bar">#2962ff</color>
+    <color name="btn_flipper_one">#D32F2F</color>
+    <color name="btn_flipper_two">#7B1FA2</color>
+    <color name="btn_flipper_three">#C2185B</color>
+    <color name="btn_flipper_four">#512DA8</color>
+    <color name="btn_flipper_five">#FBC02D</color>
+</resources>

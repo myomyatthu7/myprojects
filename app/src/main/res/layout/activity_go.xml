@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Music"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginTop="36dp"
+        />
+
+    <EditText
+        android:id="@+id/etMind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="What's on your mind?"
+        android:layout_marginTop="26dp"
+        android:inputType="text"
+        />
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        android:layout_marginTop="36dp"
+        />
+
+    <Button
+        android:id="@+id/btnGoAfter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GoAfter"
+        android:layout_marginTop="36dp"
+        />
+
+    <TextView
+        android:id="@+id/tvResultHere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result is here!"
+        android:layout_marginTop="26dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivJava"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/java"
+        />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="70dp"
+        android:background="#000"
+        />
+    <TextView
+        android:id="@+id/tvJava"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="25sp"
+        android:text="Java"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:paddingStart="20dp"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/tvIconCount"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="5"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/icon_bg"
+        />
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="names">
+        <item>Aung Aung</item>
+        <item>Aye Aye</item>
+        <item>Eaint</item>
+        <item>Hla Hla</item>
+        <item>Kyaw Kyaw</item>
+        <item>Moe Moe</item>
+        <item>Myint Myint</item>
+        <item>Noe Noe</item>
+        <item>Nu Nu</item>
+        <item>Toe Toe</item>
+        <item>Aung Aung</item>
+        <item>Aye Aye</item>
+        <item>Eaint</item>
+        <item>Hla Hla</item>
+        <item>Kyaw Kyaw</item>
+        <item>Moe Moe</item>
+        <item>Myint Myint</item>
+        <item>Noe Noe</item>
+        <item>Nu Nu</item>
+        <item>Toe Toe</item>
+    </string-array>
+
+    <string-array name="numbers">
+        <item>1234567890</item>
+        <item>2345678901</item>
+        <item>3456789012</item>
+        <item>4567890123</item>
+        <item>5678901234</item>
+        <item>6789012345</item>
+        <item>7890123456</item>
+        <item>8901234567</item>
+        <item>9012345678</item>
+        <item>0123456789</item>
+        <item>1234567890</item>
+        <item>2345678901</item>
+        <item>3456789012</item>
+        <item>4567890123</item>
+        <item>5678901234</item>
+        <item>6789012345</item>
+        <item>7890123456</item>
+        <item>8901234567</item>
+        <item>9012345678</item>
+        <item>0123456789</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="radio_button">
+
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:paddingStart">7dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="result">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="btnPhoneCall">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginEnd">25dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+        <item name="cornerRadius">18dp</item>
+    </style>
+
+    <style name="email">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:gravity">start|center_vertical</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_weight">8</item>
+    </style>
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    <style name="video_play_btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="cornerRadius">30dp</item>
+
+    </style>
+    <integer name="hello">15</integer>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="mn_lv">
+        <item>Data Transfer</item>
+        <item>Random Number Generator</item>
+        <item>Dictionary and Common Word</item>
+        <item>Recycle </item>
+        <item>Inflater</item>
+        <item>Rec_Language</item>
+        <item>Relative Layout In Java</item>
+        <item>Button Navigation</item>
+        <item>-</item>
+        <item>Random Number Generator</item>
+        <item>Data Transfer</item>
+        <item>Random Number Generator</item>
+        <item>Data Transfer</item>
+        <item>Random Number Generator</item>
+        <item>Data Transfer</item>
+        <item>Random Number Generator</item>
+        <item>Data Transfer</item>
+        <item>Random Number Generator</item>
+        <item>Data Transfer</item>
+        <item>Random Number Generator</item>
+        <item>Data Transfer</item>
+        <item>Random Number Generator</item>
+        <item>Data Transfer</item>
+        <item>Random Number Generator</item>
+        <item>Data Transfer</item>
+        <item>Random Number Generator</item>
+        <item>Data Transfer</item>
+        <item>Random Number Generator</item>
+        <item>Data Transfer</item>
+        <item>Random Number Generator</item>
+        <item>Data Transfer</item>
+        <item>Random Number Generator</item>
+
+    </string-array>
+</resources>

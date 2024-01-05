@@ -1,0 +1,30 @@
+father / အဖေ ; ˈfäT͟Hər
+mother / မိခင် ; ˈməT͟Hər
+grandfather / အဘိုး ; əˈvərɡrændˌfɑːðər
+grandmother / အဘိုး ; əˈvərɡrændˌmʌðər
+son / သား ; sʌn
+daughter / သမီး ; ˈdɔːtər
+brother / သိင်္ဂ ; ˈbrəT͟Hər
+sister / မ ; ˈsɪs.tər
+uncle (paternal) / အဲမင် ; ˈəŋ.ɡəl
+uncle (maternal) / အားမင် ; ˈænt͟Hə
+aunt (paternal) / အဲမ ; ænt
+aunt (maternal) / အားမ ; ænt
+nephew / ငါးသား ; ˈnɛv.juː
+niece / ငယ်သမီး ; niːs
+cousin / မျိုးသား ; ˈkʌz.ən
+husband / ပိတ် ; ˈhʌz.bənd
+wife / မ ; waɪf
+father-in-law / အဖောက် ; ˈfɑː.ðər ɪn.lɔː
+mother-in-law / မိန်း ; ˈmʌðər ɪn.lɔː
+brother-in-law / သိင်္ဂငယ် ; ˈbrʌðər ɪn.lɔː
+sister-in-law / မင်းသမီး ; ˈsɪs.tər ɪn.lɔː
+son-in-law / ငယ်သား ; ˈsʌn ɪn.lɔː
+daughter-in-law / ဇော်သမီး ; ˈdɔːtər ɪn.lɔː
+grandson / တရား ; ˈɡrænd.sʌn
+granddaughter / တရားမ ; ˈɡrænd.dɔːtər
+fatherly / အဖေနဲ့ ; ˈfɑːðərli
+motherly / မိခင်နဲ့ ; ˈməT͟Hərli
+sibling / အင်္ဂါ ; ˈsɪblɪŋ
+parent / မိခင်များ ; ˈpɛrənt
+child / ကလေး ; tʃaɪld

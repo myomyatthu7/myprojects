@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:gravity="center_vertical"
+    android:layout_height="70dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/ivImage"
+        android:src="@drawable/java"
+        android:layout_gravity="center_vertical"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:layout_toEndOf="@id/ivImage"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="30dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvName"
+            android:textSize="20sp"
+            android:text="@string/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvMail"
+            android:text="@string/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_alignParentEnd="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/phone"
+        />
+</RelativeLayout>

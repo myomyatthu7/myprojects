@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="001_flash">
+        <State />
+      </entry>
+      <entry key="002_calculator">
+        <State />
+      </entry>
+      <entry key="allinone">
+        <State />
+      </entry>
+      <entry key="app">
+        <State />
+      </entry>
+      <entry key="dhammachannel">
+        <State />
+      </entry>
+      <entry key="fragment">
+        <State />
+      </entry>
+      <entry key="layout_inflater">
+        <State />
+      </entry>
+      <entry key="learning">
+        <State />
+      </entry>
+    </value>
+  </component>
+</project>

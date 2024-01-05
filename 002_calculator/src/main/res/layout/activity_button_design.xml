@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCalculator"
+        style="@style/button_design"
+        android:background="@drawable/button_one"
+        android:text="Calculator" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCycle"
+        style="@style/button_design"
+        android:background="@drawable/button_two"
+        android:text="Cycle" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnROutInJava"
+        style="@style/button_design"
+        android:text="Button Three"
+        android:background="@drawable/button_three"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCheckBoxToggle"
+        style="@style/button_design"
+        android:text="CheckBox and Toggle"
+        android:background="@drawable/button_four"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnFrame_design"
+        style="@style/button_design"
+        android:text="Frame Layout"
+        android:background="@drawable/button_five"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnList"
+        style="@style/button_design"
+        android:text="Frame Layout"
+        android:background="@drawable/button_list"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDictionary"
+        style="@style/button_design"
+        android:text="Frame Layout"
+        android:background="@drawable/button_list"
+        />
+</LinearLayout>

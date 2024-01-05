@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivMain"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/outline_flyer"
+        android:scaleType="fitXY"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        android:id="@+id/tvAds"
+        android:layout_width="match_parent"
+        android:text="@string/ads"
+        android:textStyle="italic"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:background="#01365E"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

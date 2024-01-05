@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:icon="@drawable/home"
+        android:id="@+id/home1"/>
+    <item android:title="Subscription"
+        android:icon="@drawable/subscriptions"
+        android:id="@+id/sub"/>
+    <item android:title=""
+        android:enabled="false"
+        />
+    <item android:title="Music"
+        android:icon="@drawable/music"
+        android:id="@+id/music"/>
+    <item android:title="Setting"
+        android:icon="@drawable/settings"
+        android:id="@+id/setting"/>
+
+
+</menu>

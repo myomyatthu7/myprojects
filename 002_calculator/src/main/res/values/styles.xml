@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="button_design">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">65dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="cornerRadius">25dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:shadowColor">#000</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">5</item>
+    </style>
+
+    <style name="btm_cal_sci">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginStart">10dp</item>
+    </style>
+    
+    <style name="btn_cal">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_marginStart">10dp</item>
+    </style>
+
+    <style name="sub_btn_text">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:shadowColor">#000</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowRadius">5</item>
+    </style>
+
+    <style name="actionbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:shadowColor">#000</item>
+        <item name="android:shadowDy">5</item>
+        <item name="android:shadowDx">5</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="checkBox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+</resources>

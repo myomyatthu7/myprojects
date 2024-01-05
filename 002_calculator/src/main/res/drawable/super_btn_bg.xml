@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_pressed="true">
+<shape>
+    <solid android:color="@color/super_btn_bg_start"/>
+    <corners android:radius="250dp"/>
+    <stroke android:color="@color/super_btn_bg_end"
+        android:width="2dp"
+        />
+</shape>
+</item>
+
+    <item android:state_pressed="false">
+        <shape>
+            <gradient android:startColor="@color/super_btn_bg_start"
+                android:endColor="@color/super_btn_bg_end"
+                android:angle="270"
+                />
+            <corners android:radius="250dp"
+                />
+        </shape>
+    </item>
+</selector>

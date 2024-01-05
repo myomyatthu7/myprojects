@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/001_flash" />
+            <option value="$PROJECT_DIR$/002_calculator" />
+            <option value="$PROJECT_DIR$/allinone" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/dhammachannel" />
+            <option value="$PROJECT_DIR$/fragment" />
+            <option value="$PROJECT_DIR$/layout_inflater" />
+            <option value="$PROJECT_DIR$/learning" />
+          </set>
+        </option>
+        <option name="resolveExternalAnnotations" value="false" />
+      </GradleProjectSettings>
+    </option>
+    <option name="offlineMode" value="true" />
+  </component>
+</project>

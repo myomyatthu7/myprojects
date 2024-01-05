@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/ivContact"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="5dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/contacts"
+        android:importantForAccessibility="no" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@id/ivContact"
+        android:layout_marginTop="10dp"
+        android:text="Aye Aye"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@id/ivContact"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="0912345678" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/ibMsg"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/message"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:layout_marginEnd="10dp" />
+
+    <View
+        android:id="@+id/v1"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_toStartOf="@id/ibMsg"
+        android:background="#838080" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/ibPhCall"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_toStartOf="@id/v1"
+        android:layout_centerVertical="true"
+        android:src="@drawable/phone_call"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp" />
+
+    <View
+        android:id="@+id/v2"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#838080"
+        android:layout_toStartOf="@id/ibPhCall"
+        android:layout_margin="5dp"
+        />
+
+</RelativeLayout>

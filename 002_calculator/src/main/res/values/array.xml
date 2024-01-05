@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="arrayList">
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <item>Option 3</item>
+        <item>Option 4</item>
+    </string-array>
+
+    <string-array name="vList">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="list_language">
+        <item>Html</item>
+        <item>CSS</item>
+        <item>Html 5</item>
+        <item>CSS 3</item>
+        <item>JQuery</item>
+        <item>javascript</item>
+        <item>Ajax</item>
+        <item>Json</item>
+        <item>PhP</item>
+        <item>My Sql</item>
+        <item>C</item>
+        <item>C++</item>
+        <item>Java</item>
+        <item>Kotlin</item>
+        <item>C#</item>
+        <item>Ruby</item>
+        <item>Flutter</item>
+        <item>Dark</item>
+        <item>Go</item>
+    </string-array>
+
+    <string-array name="icon_list">
+        <item>@drawable/html</item>
+        <item>@drawable/css</item>
+        <item>@drawable/html_five</item>
+        <item>@drawable/css_three</item>
+        <item>@drawable/jquery</item>
+        <item>@drawable/javascript</item>
+        <item>@drawable/ajax</item>
+        <item>@drawable/json</item>
+        <item>@drawable/php</item>
+        <item>@drawable/mysql</item>
+        <item>@drawable/c</item>
+        <item>@drawable/c_plus_plus</item>
+        <item>@drawable/java</item>
+        <item>@drawable/kotlin</item>
+        <item>@drawable/c_sharp</item>
+        <item>@drawable/ruby</item>
+        <item>@drawable/flutter</item>
+        <item>@drawable/dart</item>
+        <item>@drawable/go</item>
+    </string-array>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="@style/data_tran_views"
+        android:text="@string/hello"
+        android:textSize="50sp"
+        />
+    <EditText
+        android:id="@+id/etInput"
+        style="@style/data_tran_views"
+        android:ems="10"
+        />
+    <Button
+        android:id="@+id/btnNext"
+        style="@style/data_tran_views"
+        android:text="Next"
+        />
+    <TextView
+        android:id="@+id/tvReturnResult"
+        style="@style/data_tran_views"
+        android:text="Result"
+        android:textSize="20sp"
+        />
+</LinearLayout>

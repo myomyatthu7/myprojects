@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/vf"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnOne"
+            style="@style/btn_view_flipper"
+            android:text="One"
+            android:background="@color/btn_flipper_one"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnTwo"
+            style="@style/btn_view_flipper"
+            android:text="Two"
+            android:background="@color/btn_flipper_two"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnThree"
+            style="@style/btn_view_flipper"
+            android:text="Three"
+            android:background="@color/btn_flipper_three"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnFour"
+            style="@style/btn_view_flipper"
+            android:text="Four"
+            android:background="@color/btn_flipper_four"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnFive"
+            style="@style/btn_view_flipper"
+            android:text="Five"
+            android:background="@color/btn_flipper_five"
+            />
+
+</ViewFlipper>

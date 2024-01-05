@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stone Text Play"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="36dp"
+        />
+
+    <EditText
+        android:id="@+id/etInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvText"
+        android:layout_marginTop="32dp"
+        android:hint="Enter Text"
+        />
+
+    <Button
+        android:id="@+id/btnCmd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etInput"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:text="Command" />
+
+    <ToggleButton
+        android:id="@+id/tgb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etInput"
+        android:layout_alignBaseline="@+id/btnCmd"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="34dp"
+        android:layout_toEndOf="@+id/btnCmd"
+        android:layout_toRightOf="@+id/btnCmd" />
+
+    <LinearLayout
+        android:layout_below="@+id/btnCmd"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="Result Here!"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission-sdk-23 android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN"/>
+            <category android:name="android.intent.category.LAUNCHER"/>
+            <data android:mimeType="text/*"/>
+        </intent>
+    </queries>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/xxxgrammar"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/xxxgrammar"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplicationn">
+
+        <activity android:name=".custom_list.Main_List"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".Video_List"/>
+        <activity android:name=".Dictionary"/>
+        <activity android:name=".Videos_Play"
+            android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            />
+        <activity android:name=".MyTabHost"/>
+        <activity android:name=".MyViewFlipper"/>
+        <activity android:name=".Custom_Table_Layout"/>
+        <activity android:name=".Table_Layout"/>
+        <activity android:name=".Common_Words"/>
+        <activity android:name=".custom_list.Custom_Grid_Layout"/>
+        <activity android:name=".Host_Fragment"/>
+        <activity android:name=".Frg_Host_Com"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".custom_list.Normal_List"/>
+        <activity android:name=".custom_list.Activity_List"/>
+    </application>
+
+</manifest>

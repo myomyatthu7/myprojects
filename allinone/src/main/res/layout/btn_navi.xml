@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/lavender"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frameOut"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAppBar"
+        android:background="@color/white"
+        android:layout_gravity="bottom"
+        app:fabCradleMargin="7dp"
+        app:fabCradleRoundedCornerRadius="40dp"
+        app:fabCradleVerticalOffset="5dp"
+        >
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/btnNavi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            app:elevation="0dp"
+            app:menu="@menu/btn_navi"
+            android:layout_marginEnd="16dp"
+            />
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add"
+        app:layout_anchor="@id/btnAppBar"
+        app:layout_anchorGravity="center"
+
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvGoAfterResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="36sp"
+        android:layout_marginTop="36dp"
+        />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_marginTop="36dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rgJava"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text ="Java"
+            android:textSize="24sp"
+            />
+
+        <RadioButton
+            android:id="@+id/rgKt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text ="Kotlin"
+            android:textSize="24sp"
+            />
+
+        <RadioButton
+            android:id="@+id/rgCPlus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text ="C++"
+            android:textSize="24sp"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvRadioResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="36sp"
+        android:layout_marginTop="36dp"
+        />
+
+    <Button
+        android:id="@+id/btnGoAfterFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:layout_marginTop="24dp"
+        />
+
+</LinearLayout>

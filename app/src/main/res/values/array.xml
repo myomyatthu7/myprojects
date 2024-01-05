@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="videos">
+        <item>Lesson 1</item>
+        <item>Lesson 2</item>
+        <item>Lesson 3</item>
+        <item>Lesson 4</item>
+        <item>Lesson 5</item>
+        <item>Lesson 6</item>
+        <item>Lesson 7</item>
+        <item>Lesson 8</item>
+        <item>Lesson 9</item>
+        <item>Lesson 10</item>
+        <item>Lesson 11</item>
+        <item>Lesson 12</item>
+        <item>Lesson 13</item>
+        <item>Lesson 14</item>
+        <item>Lesson 15</item>
+        <item>Lesson 16</item>
+        <item>Lesson 17</item>
+        <item>Lesson 18</item>
+        <item>Lesson 19</item>
+        <item>Lesson 20</item>
+        <item>Lesson 1</item>
+        <item>Lesson 2</item>
+        <item>Lesson 3</item>
+        <item>Lesson 4</item>
+        <item>Lesson 5</item>
+        <item>Lesson 6</item>
+        <item>Lesson 7</item>
+        <item>Lesson 8</item>
+        <item>Lesson 9</item>
+        <item>Lesson 10</item>
+        <item>Lesson 11</item>
+        <item>Lesson 12</item>
+        <item>Lesson 13</item>
+        <item>Lesson 14</item>
+        <item>Lesson 15</item>
+        <item>Lesson 16</item>
+        <item>Lesson 17</item>
+        <item>Lesson 18</item>
+        <item>Lesson 19</item>
+        <item>Lesson 20</item>
+    </string-array>
+</resources>

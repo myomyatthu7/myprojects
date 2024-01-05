@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Flash</string>
+    <string name="text">Java သင်ခန်းများအား ကြည့်ရှုနိုင်ပါပြီ။ ဝင်ရောက်လေ့လာနိုင်ပါသည်။ အားလုံးကို ကျေးဇူးတင်ပါသည်။</string>
+    <string name="sendMemoryPic">Send internal memory picture</string>
+    <string name="sendDrawPic">Send drawable picture</string>
+    <string name="playVideo">Learn Play Video</string>
+    <string name="sendEmail">Send email whatever you wish</string>
+    <string name="phoneCall">Phone call with two method</string>
+    <string name="ast">Android Studio Tutorial</string>
+</resources>

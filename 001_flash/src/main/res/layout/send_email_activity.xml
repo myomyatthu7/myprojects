@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:outlineAmbientShadowColor="@color/black"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:gravity="end"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            style="@style/email"
+            android:text="To"
+            />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:outlineAmbientShadowColor="@color/black"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:gravity="end"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            style="@style/email"
+            android:text="CC"
+            />
+
+        <EditText
+            android:id="@+id/etCC"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:outlineAmbientShadowColor="@color/black"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:gravity="end"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            style="@style/email"
+            android:text="BCC"
+            />
+
+        <EditText
+            android:id="@+id/etBCC"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etSubject"
+            style="@style/email"
+            android:inputType="textEmailSubject"
+            android:layout_marginEnd="20dp"
+            android:hint="Subject"
+            />
+
+        <EditText
+            android:id="@+id/etMessage"
+            style="@style/email"
+            android:hint="Compose email"
+            android:layout_marginEnd="20dp"
+            android:maxLines="@integer/material_motion_duration_long_2"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:text="Send"
+        app:icon="@android:drawable/ic_menu_send" />
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/apps"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/apps"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplicationn">
+
+        <activity android:name=".MainLsV"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main"/>
+        <activity android:name=".Data_Tran"/>
+        <activity android:name=".Data_Result"/>
+        <activity android:name=".Rdm_Pic"/>
+        <activity android:name=".MyTabHost"/>
+        <activity android:name=".Com_Word"/>
+        <activity android:name=".MyRecycle"/>
+        <activity android:name=".MyInflater"/>
+        <activity android:name=".project1.DetailActivity"/>
+        <activity android:name=".project1.MainActivity"/>
+        <activity android:name=".rOut_Jv"/>
+        <activity android:name=".BtnNavi"/>
+    </application>
+
+</manifest>

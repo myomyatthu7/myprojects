@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Applicationn</string>
+    <string name="Testing123">test</string>
+    <string name="click_me">Click me</string>
+    <string name="btn">Button</string>
+    <string name="button_one">Button One</string>
+    <string name="button_two">Button Two</string>
+    <string name="result_like">3000 : likes this photo</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etTest"
+        android:layout_width="wrap_content"
+        android:hint="Hello"
+        android:layout_above="@+id/btTwo"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="25dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btOne"
+        style="@style/my_button"
+        android:layout_centerInParent="true"
+        android:text="Go to anther activity" />
+
+    <Button
+        android:id="@+id/btTwo"
+        style="@style/my_button"
+        android:layout_above="@+id/btOne"
+        android:text="Button Two" />
+
+    <Button
+        android:id="@+id/btThree"
+        style="@style/my_button"
+        android:layout_below="@+id/btOne"
+        android:text="ButtonThree " />
+
+    <Button
+        android:id="@+id/btnVideo"
+        style="@style/my_button"
+        android:layout_below="@+id/btThree"
+        android:text="Play Video " />
+</RelativeLayout>

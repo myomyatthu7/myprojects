@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <EditText
+            android:inputType="number"
+            android:gravity="end"
+            android:textSize="35sp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:icon="@android:drawable/ic_input_delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:weightSum="5"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+            <Button
+                style="@style/btm_cal_sci"
+                android:text="sin"
+                />
+            <Button
+                style="@style/btm_cal_sci"
+                android:text="cos"
+                />
+            <Button
+                style="@style/btm_cal_sci"
+                android:text="tan"
+                />
+            <Button
+                style="@style/btm_cal_sci"
+                android:text="ꙥ"
+                />
+            <Button
+                style="@style/btm_cal_sci"
+                android:text="!"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            >
+
+            <Button
+                style="@style/btm_cal_sci"
+                android:text="in"
+                />
+            <Button
+                style="@style/btm_cal_sci"
+                android:text="log"
+                />
+            <Button
+                style="@style/btm_cal_sci"
+                android:text="e"
+                />
+            <Button
+                style="@style/btm_cal_sci"
+                android:text="^"
+                />
+            <Button
+                style="@style/btm_cal_sci"
+                android:text="√"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="3"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    style="@style/btn_cal"
+                    android:text="7"
+                    />
+                <Button
+                    style="@style/btn_cal"
+                    android:text="8"
+                    />
+                <Button
+                    style="@style/btn_cal"
+                    android:text="9"
+                    />
+                <Button
+                    style="@style/btn_cal"
+                    android:text="/"
+                    />
+                <Button
+                    style="@style/btn_cal"
+                    android:text="("
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <Button
+                    style="@style/btn_cal"
+                    android:text="4"
+                    />
+                <Button
+                    style="@style/btn_cal"
+                    android:text="5"
+                    />
+                <Button
+                    style="@style/btn_cal"
+                    android:text="6"
+                    />
+                <Button
+                    style="@style/btn_cal"
+                    android:text="*"
+                    />
+                <Button
+                    style="@style/btn_cal"
+                    android:text=")"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2">
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <Button
+                            style="@style/btn_cal"
+                            android:text="1"
+                            />
+                        <Button
+                            style="@style/btn_cal"
+                            android:text="2"
+                            />
+                        <Button
+                            style="@style/btn_cal"
+                            android:text="3"
+                            />
+                        <Button
+                            style="@style/btn_cal"
+                            android:text="-"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1">
+
+                        <Button
+                            style="@style/btn_cal"
+                            android:layout_weight="2.11"
+                            android:text="0"
+                            />
+                        <Button
+                            style="@style/btn_cal"
+                            android:text="."
+                            />
+                        <Button
+                            style="@style/btn_cal"
+                            android:text="+"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.25">
+
+                    <Button
+                        style="@style/btn_cal"
+                        android:text="+"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

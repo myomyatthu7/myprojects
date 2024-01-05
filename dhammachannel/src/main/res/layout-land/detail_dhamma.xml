@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/detail_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rOutTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40sp">
+
+        <TextView
+            android:id="@+id/tvDetailTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/test_title"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/title_bg"
+            android:gravity="center"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRotate"
+            android:layout_alignParentEnd="true"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/screen_rotation"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@id/rOutTitle"
+        android:layout_alignParentStart="true"
+        android:layout_margin="7dp"
+        android:gravity="center_horizontal"
+        android:layout_toStartOf="@+id/rout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/tvDetailDesc"
+                    android:textSize="20sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    />
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/scrollViewFrg"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/rOut_mp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_below="@id/rOutTitle"
+            android:id="@+id/rout"
+            android:gravity="center_vertical"
+            android:layout_alignParentEnd="true"
+            android:layout_width="40dp"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnIncrease"
+                android:layout_below="@id/btnPlay"
+                style="@style/btn_inde_ld"
+                android:text="@string/a_in"
+                android:background="@drawable/btn_inde"
+                />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnDecrease_l"
+                style="@style/btn_inde_ld"
+                android:background="@drawable/btn_inde_l"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnDecrease"
+                style="@style/btn_inde_ld"
+                android:background="@drawable/btn_inde"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnmyan"
+                android:layout_below="@id/btnDecrease"
+                android:textSize="20sp"
+                android:text="@string/myan_pyan"
+                android:background="@drawable/btn_translate"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnPause"
+                android:background="@drawable/pause"
+                style="@style/play_pause_ld"
+                android:visibility="invisible"
+                />
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnPlay"
+                android:background="@drawable/play"
+                style="@style/play_pause_ld"
+                />
+        </RelativeLayout>
+
+</RelativeLayout>

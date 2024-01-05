@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+    <TextView
+        style="@style/rdm_pic"
+        android:textSize="45sp"
+        android:text="@string/lucky_num"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/tvLucky_Num"
+        style="@style/rdm_pic"
+        android:textSize="75sp"
+        android:text="@string/ready"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/etMax_Num"
+        style="@style/rdm_pic"
+        android:hint="@string/max_no"
+        android:textSize="35sp"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:id="@+id/cbSkpAni"
+            android:text="@string/skp_anima"
+            />
+
+        <EditText
+            android:id="@+id/etAniSec"
+            android:layout_marginStart="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="2"
+            android:hint="sec"
+            android:visibility="invisible"
+            android:inputType="number"
+            />
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnStart"
+        style="@style/rdm_pic"
+        android:text="@string/start"
+        android:gravity="center"
+        />
+</LinearLayout>

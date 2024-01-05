@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_to_cart"
+        android:textColor="#000"
+        android:textSize="45dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"
+        />
+
+    <View
+        android:layout_width="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="2dp"
+        android:background="#000"
+        android:layout_below="@+id/tvTitle"
+        />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/cbSnare"
+        style="@style/checkBox"
+        android:text="Snare 200"
+        android:layout_below="@+id/tvTitle"
+        android:layout_marginTop="20dp"
+        />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/cbIron"
+        style="@style/checkBox"
+        android:text="Iron Cross 300"
+        android:layout_alignLeft="@+id/cbSnare"
+        android:layout_below="@+id/cbSnare"
+        />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/cbEmperor"
+        style="@style/checkBox"
+        android:text="Emperor 400"
+        android:layout_alignLeft="@+id/cbSnare"
+        android:layout_below="@+id/cbIron"
+        />
+
+    <com.google.android.material.checkbox.MaterialCheckBox
+        android:id="@+id/cbAudio"
+        style="@style/checkBox"
+        android:text="Audio Wave 450"
+        android:layout_alignLeft="@+id/cbSnare"
+        android:layout_below="@+id/cbEmperor"
+        />
+
+    <TextView
+        android:id="@+id/tvDiscount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cbAudio"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:text="20% Discount or not"
+        android:visibility="invisible"
+        android:textSize="25sp" />
+
+    <ToggleButton
+        android:id="@+id/tgDiscount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDiscount"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="5dp"
+        android:visibility="invisible"
+        />
+
+    <Button
+        android:id="@+id/btnDis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvDiscount"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="5dp"
+        android:text="Submit"
+        />
+
+
+
+    <EditText
+        android:id="@+id/etDisKey"
+        android:layout_width="260dp"
+        android:paddingEnd="10dp"
+        android:layout_height="wrap_content"
+        android:hint="Add your discount key!"
+        android:layout_below="@id/tvDiscount"
+        android:layout_toStartOf="@+id/tgDiscount"
+        android:layout_alignBaseline="@+id/btnDis"
+        android:layout_marginEnd="10dp"
+        android:gravity="end"
+        />
+
+    <Button
+        android:id="@+id/btnTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:layout_below="@id/tgDiscount"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:text="Total Price :"
+        android:textSize="25sp"
+        />
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:background="#5DA6E0"
+    android:layout_height="200dp">
+
+    <TextView
+        android:id="@+id/tvComOne"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment One"
+        />
+    <Button
+        android:id="@+id/btnComOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button One"
+        />
+</LinearLayout>

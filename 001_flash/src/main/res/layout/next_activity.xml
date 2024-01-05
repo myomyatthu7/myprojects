@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#343D46"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="34sp"
+        android:text="@string/ast"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        />
+
+    <RadioGroup
+        android:id="@+id/rGroup"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/rPhoneCall"
+            android:text="@string/phoneCall"
+            style="@style/radio_button"
+            />
+
+        <RadioButton
+            android:id="@+id/rSendEmail"
+            android:text="@string/sendEmail"
+            style="@style/radio_button"
+            />
+
+        <RadioButton
+            android:id="@+id/rPlayVideo"
+            android:text="@string/playVideo"
+            style="@style/radio_button"
+            />
+
+        <RadioButton
+            android:id="@+id/rSendDrawPic"
+            android:text="@string/sendDrawPic"
+            style="@style/radio_button"
+            />
+
+        <RadioButton
+            android:id="@+id/rSendMemoryPic"
+            android:text="@string/sendMemoryPic"
+            style="@style/radio_button"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvResult"
+        style="@style/result"
+        android:text="Result"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:textColor="#93DACDCD"
+        />
+    <Button
+        android:id="@+id/btnNext"
+        style="@style/result"
+        android:text="Next"
+        android:textAllCaps="false"
+        />
+</LinearLayout>
