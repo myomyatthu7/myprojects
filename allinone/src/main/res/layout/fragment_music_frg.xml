@@ -1,17 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".frgment.MusicFrg">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="20sp"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:text="Music" />
+        android:id="@+id/tvPath"
+        android:text="File Path"
+        android:textSize="35sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
-</FrameLayout>
+    <EditText
+        android:id="@+id/etText"
+        style="@style/cachesAndStorage"
+        />
+
+    <Button
+        android:id="@+id/btnInternalCache"
+        android:text="Internal Cache"
+        style="@style/cachesAndStorage"/>
+
+    <Button
+        android:id="@+id/btnExternalCache"
+        android:text="External Cache"
+        style="@style/cachesAndStorage"/>
+
+    <Button
+        android:id="@+id/btnExternalStoragePrivate"
+        android:text="External Storage Private"
+        style="@style/cachesAndStorage"/>
+
+    <Button
+        android:id="@+id/btnExternalStoragePublic"
+        android:text="External Storage Public"
+        style="@style/cachesAndStorage"/>
+
+    <Button
+        android:id="@+id/btnGoNext"
+        android:text="Next Activity"
+        style="@style/cachesAndStorage"/>
+</LinearLayout>

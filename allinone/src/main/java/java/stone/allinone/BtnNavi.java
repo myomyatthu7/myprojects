@@ -31,7 +31,7 @@ public class BtnNavi extends AppCompatActivity implements NavigationBarView.OnIt
         navigationView = findViewById(R.id.btnNavi);
         frameLayout = findViewById(R.id.frameOut);
         navigationView.setOnItemSelectedListener(this);
-        replaceFrg(new homefrg());
+        replaceFrg(new SubFrg());
     }
     public void replaceFrg(Fragment fragment) {
         FragmentManager fm = getSupportFragmentManager();

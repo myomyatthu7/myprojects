@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="ScopedStorage" />
+    <uses-permission-sdk-23 android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission-sdk-23 android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/apps"
@@ -10,25 +21,39 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplicationn">
 
-        <activity android:name=".MainLsV"
+        <activity
+            android:name=".MainLsV"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main"/>
-        <activity android:name=".Data_Tran"/>
-        <activity android:name=".Data_Result"/>
-        <activity android:name=".Rdm_Pic"/>
-        <activity android:name=".MyTabHost"/>
-        <activity android:name=".Com_Word"/>
-        <activity android:name=".MyRecycle"/>
-        <activity android:name=".MyInflater"/>
-        <activity android:name=".project1.DetailActivity"/>
-        <activity android:name=".project1.MainActivity"/>
-        <activity android:name=".rOut_Jv"/>
-        <activity android:name=".BtnNavi"/>
+        <activity android:name=".Main" />
+        <activity android:name=".Data_Tran" />
+        <activity android:name=".Data_Result" />
+        <activity android:name=".Rdm_Pic" />
+        <activity android:name=".MyTabHost" />
+        <activity android:name=".Com_Word" />
+        <activity android:name=".MyRecycle" />
+        <activity android:name=".MyInflater" />
+        <activity android:name=".project1.DetailActivity" />
+        <activity android:name=".project1.MainActivity" />
+        <activity android:name=".rOut_Jv" />
+        <activity android:name=".BtnNavi" />
+        <activity android:name=".project2.Main_Note"
+            android:label="Your Notes"
+            />
+        <activity android:name=".project2.Add_Note"
+            android:label="Add Note"
+            android:windowSoftInputMode="adjustResize"
+            />
+        <activity android:name=".project2.Update_Note"
+            android:label="Update Note"
+            />
+
+        <activity android:name=".password.Main_Pw"/>
+        <activity android:name=".password.Next_Pw"/>
     </application>
 
 </manifest>

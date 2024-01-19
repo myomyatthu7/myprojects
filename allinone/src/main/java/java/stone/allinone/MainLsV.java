@@ -10,7 +10,9 @@ import android.widget.ListView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.stone.allinone.password.Main_Pw;
 import java.stone.allinone.project1.MainActivity;
+import java.stone.allinone.project2.Main_Note;
 
 public class MainLsV extends AppCompatActivity implements AdapterView.OnItemClickListener {
     String []ary;
@@ -53,6 +55,12 @@ public class MainLsV extends AppCompatActivity implements AdapterView.OnItemClic
         } else if (position == 7) {
             Intent intBtnNavi = new Intent(MainLsV.this, BtnNavi.class);
             startActivity(intBtnNavi);
+        } else if (position == 8) {
+            Intent intNote = new Intent(MainLsV.this, Main_Note.class);
+            startActivity(intNote);
+        } else if (position == 9) {
+            Intent intPw = new Intent(MainLsV.this, Main_Pw.class);
+            startActivity(intPw);
         }
     }
 }

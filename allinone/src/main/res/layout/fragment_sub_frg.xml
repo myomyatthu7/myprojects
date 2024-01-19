@@ -1,17 +1,104 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
     tools:context=".frgment.SubFrg">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/dbSearch"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="20sp"
-        android:gravity="center"
-        android:textStyle="bold"
-        android:text="Sub" />
+        android:layout_height="wrap_content"/>
+    <TextView
+        style="@style/tv_stu"
+        android:layout_alignBaseline="@id/etStuName"
+        android:text="Student Name"
+        />
+    <EditText
+        android:id="@+id/etStuName"
+        android:hint="enter your name"
+        style="@style/et_stu"
+        android:layout_below="@+id/dbSearch"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentEnd="true"
+        />
 
-</FrameLayout>
+    <TextView
+        style="@style/tv_stu"
+        android:layout_alignBaseline="@id/etStuCode"
+        android:text="Student Code"
+        />
+    <EditText
+        android:id="@+id/etStuCode"
+        android:layout_below="@+id/etStuName"
+        android:hint="enter your code"
+        style="@style/et_stu"
+        android:layout_alignParentEnd="true"
+        />
+
+    <TextView
+        style="@style/tv_stu"
+        android:layout_alignBaseline="@id/etStuCity"
+        android:text="Student City"
+        />
+    <EditText
+        android:id="@+id/etStuCity"
+        android:hint="enter your City"
+        style="@style/et_stu"
+        android:layout_below="@id/etStuCode"
+        android:layout_alignParentEnd="true"
+        />
+
+    <Button
+        android:id="@+id/btnInsert"
+       style="@style/tv_stu"
+        android:text="Data Insert"
+        android:layout_alignBaseline="@+id/btnQuery"
+        />
+
+    <Button
+        android:id="@+id/btnQuery"
+        style="@style/tv_stu"
+        android:layout_below="@id/etStuCity"
+        android:layout_alignParentEnd="true"
+        android:text="Data Query"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        style="@style/tv_stu"
+        android:layout_alignBaseline="@id/etId"
+        android:text="Identification :"
+        />
+    <EditText
+        android:id="@+id/etId"
+        android:hint="Id"
+        style="@style/et_stu"
+        android:layout_below="@id/btnQuery"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:ems="3"
+        />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        style="@style/tv_stu"
+        android:text="Data Update"
+        android:layout_alignBaseline="@+id/btnDelete"
+        />
+
+    <Button
+        android:id="@+id/btnDelete"
+        style="@style/tv_stu"
+        android:layout_below="@id/etId"
+        android:layout_alignParentEnd="true"
+        android:text="Data Delete"
+        android:layout_marginTop="30dp"
+        />
+
+
+</RelativeLayout>

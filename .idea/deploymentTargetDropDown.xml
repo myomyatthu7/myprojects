@@ -8,8 +8,24 @@
       <entry key="002_calculator">
         <State />
       </entry>
-      <entry key="allinone">
+      <entry key="All Tests">
         <State />
+      </entry>
+      <entry key="allinone">
+        <State>
+          <runningDeviceTargetSelectedWithDropDown>
+            <Target>
+              <type value="RUNNING_DEVICE_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="SERIAL_NUMBER" />
+                  <value value="2cb34718" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </runningDeviceTargetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-01-10T08:22:10.225525800Z" />
+        </State>
       </entry>
       <entry key="app">
         <State />
